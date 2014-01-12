@@ -1,4 +1,6 @@
-gemstone-gen
-============
 
-Gemstone Yeoman Generator (generator-gemstone)
+Gemstone
+========
+
+This is the Gemstone Yeoman-based generator ("generator-gemstone").
+

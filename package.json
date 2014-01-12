@@ -1,0 +1,38 @@
+{
+    "name":        "generator-gemstone",
+    "version":     "0.0.0",
+    "description": "Gemstone Generator for Yeoman",
+    "homepage":    "https://github.com/rse/gemstone-gen",
+    "bugs":        "https://github.com/rse/gemstone-gen/issues",
+    "author": {
+        "name":    "Ralf S. Engelschall",
+        "email":   "rse@engelschall.com",
+        "url":     "http://engelschall.com"
+    },
+    "main":        "app/index.js",
+    "repository": {
+        "type":    "git",
+        "url":     "git://github.com/rse/gemstone-gen.git"
+    },
+    "licenses": [{
+        "type":    "GPL"
+    }],
+    "keywords": [
+        "yeoman-generator",
+        "gemstone",
+        "yeoman", 
+        "generator"
+    ],
+    "dependencies": {
+        "yeoman-generator": "~0.14.2",
+        "js-yaml":          "~3.0.1",
+        "lodash":           "~2.4.1",
+        "dashdash":         "~1.4.0"
+    },
+    "peerDependencies": {
+        "yo":               ">=1.0.0"
+    },
+    "engines": {
+        "node":             ">=0.10.0"
+    }
+}

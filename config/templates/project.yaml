@@ -1,0 +1,66 @@
+##
+##  project.yaml -- Gemstone Project Configuration
+##
+
+project:
+    app-id:            example
+    app-name:          Example App
+    app-summary:       The Example Application
+    app-version:       0.0.0
+    app-date:          00000000
+    copyright-year:    2014
+    copyright-name:    Example Corporation
+    copyright-addr:    http://example.com/
+    license-info: |
+        This Source Code Form is subject to the terms of the Mozilla Public
+        License (MPL), version 2.0. If a copy of the MPL was not distributed
+        with this file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+scaffolding:
+    widget-view-mask:     [ "project.d/widget-view-mask.html",     "app/widget/{{name}}/{{name}}-view.mask.html"     ]
+    widget-view-i18n:     [ "project.d/widget-view-i18n.yaml",     "app/widget/{{name}}/{{name}}-view.i18n.yaml"     ]
+    widget-view-asset:    [ "project.d/widget-view-asset.yaml",    "app/widget/{{name}}/{{name}}-view.asset.yaml"    ]
+    widget-view-style:    [ "project.d/widget-view-style.less",    "app/widget/{{name}}/{{name}}-view.style.less"    ]
+    widget-view-code:     [ "project.d/widget-view-code.js",       "app/widget/{{name}}/{{name}}-view.js"            ]
+    widget-model-code:    [ "project.d/widget-model-code.js",      "app/widget/{{name}}/{{name}}-model.js"           ]
+    composite-view-mask:  [ "project.d/composite-view-mask.html",  "app/composite/{{name}}/{{name}}-view.mask.html"  ]
+    composite-view-i18n:  [ "project.d/composite-view-i18n.yaml",  "app/composite/{{name}}/{{name}}-view.i18n.yaml"  ]
+    composite-view-asset: [ "project.d/composite-view-asset.yaml", "app/composite/{{name}}/{{name}}-view.asset.yaml" ]
+    composite-view-style: [ "project.d/composite-view-style.less", "app/composite/{{name}}/{{name}}-view.style.less" ]
+    composite-view-code:  [ "project.d/composite-view-code.js",    "app/composite/{{name}}/{{name}}-view.js"         ]
+    composite-model-code: [ "project.d/composite-model-code.js",   "app/composite/{{name}}/{{name}}-model.js"        ]
+    composite-ctrl-code:  [ "project.d/composite-ctrl-code.js",    "app/composite/{{name}}/{{name}}-ctrl.js"         ]
+
+provisioning:
+    # mandatory
+    - jquery        : yes       
+    - jquery-markup : yes
+    - ractive       : yes
+    - less          : yes
+    - componentjs   : yes
+    - i18next       : yes
+    # recommended
+    - lodash        : yes
+    - es5-shim      : yes
+    - es6-shim      : yes
+    - bluebird      : yes
+    # useful
+    - jquery-stage  : yes
+    - director      : yes
+    - sanitize-css  : yes
+    - typopro       : yes
+    - font-awesome  : yes
+    # optional
+    - modernizr     : yes
+    - gridless      : yes
+    - lesshat       : yes
+    - animo.js      : yes
+    - fabric        : yes
+    - snapsvg       : yes
+    - numeral       : yes
+    - moment        : yes
+    - accounting    : yes
+    - sprintfjs     : yes
+    - ducky         : yes
+    - uuidjs        : yes
+
