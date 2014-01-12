@@ -2,5 +2,5 @@
 Gemstone
 ========
 
-This is the Gemstone Yeoman-based generator ("generator-gemstone").
+This is the Gemstone Yeoman-based generator (NPM: "generator-gemstone").
 
